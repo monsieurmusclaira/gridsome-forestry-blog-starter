@@ -44,4 +44,12 @@ export default {
     margin: 0;
     opacity: 0.6;
 }
+.hero-subtitle-2 {
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.68;
+    padding: 0;
+    margin: 0;
+    opacity: 0.6;
+}
 </style>
