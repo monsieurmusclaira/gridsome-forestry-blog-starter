@@ -8,4 +8,5 @@ export default function(Vue, { head }) {
   head.bodyAttrs = {
     class: settings.dark_mode ? "dark" : ""
   };
+  
 }

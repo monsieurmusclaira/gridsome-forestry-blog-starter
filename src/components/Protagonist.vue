@@ -1,8 +1,12 @@
 <template>
     <div class="hero">
-        <h1 class="hero-title" v-html="settings.hero_title" />
-        <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
-        <h2 class="hero-subtitle-2" v-html="settings.hero_subtitle_2" />
+            <g-link :to="item.node.path" class="project-link">
+            <g-image
+                :src="item.node.thumbnail"
+                :alt="item.node.title"
+                class="thumbnail"
+            />
+            </g-link>
     </div>
 </template>
 
