@@ -2,17 +2,13 @@
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
         <div class="container">
             <div class="left">
-                <g-link :to="{ name: 'home' }" class="home-link">
-                    <img 
-                        src="../../static/logo.svg"
-                        :alt="settings.site_name" 
-                        class="logo"
-                    />
-                </g-link>
+                <h1>Kate Voet</h1>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/journal">Journal</g-link>
-                <g-link class="nav__link" to="/contact">Say Hi!</g-link>
+                <g-link class="nav__link" to="/contact">About me</g-link>
+                <g-link class="nav__link" to="/journal">Portfolio</g-link>                
+                <g-link class="nav__link" to="/contact">Journal</g-link>
+                <g-link class="nav__link" to="/contact">Blog</g-link>
             </nav>
         </div>
     </header>
