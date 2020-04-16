@@ -31,6 +31,24 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "photodiary/**/*.md",
+        typeName: "DiaryPost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-XXXXXXXXX-X'
+      }
     }
   ],
   transformers: {

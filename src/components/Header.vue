@@ -5,10 +5,10 @@
                 <h1>Kate Voet</h1>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/contact">About me</g-link>
-                <g-link class="nav__link" to="/journal">Portfolio</g-link>                
-                <g-link class="nav__link" to="/contact">Journal</g-link>
-                <g-link class="nav__link" to="/contact">Blog</g-link>
+                <g-link class="nav__link" to="/about-me">About me</g-link>
+                <g-link class="nav__link" to="/projects">Projects</g-link>                
+                <g-link class="nav__link" to="/photodiary">Diary</g-link>
+                <g-link class="nav__link" to="/journal">Journal</g-link>
             </nav>
         </div>
     </header>

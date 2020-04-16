@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <HeroBig />
     <div class="container">
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
@@ -36,12 +37,16 @@ query Posts {
 
 <script>
 import Hero from "@/components/Hero"
+import Hero2 from "@/components/Hero2"
+import HeroBig from "@/components/HeroBig"
 import ProjectsGrid from "@/components/ProjectsGrid"
 import LatestJournals from "@/components/LatestJournals"
 
 export default {
   components: {
     Hero,
+    Hero2,
+    HeroBig,
     ProjectsGrid,
     LatestJournals
   }

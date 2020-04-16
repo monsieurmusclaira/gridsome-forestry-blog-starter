@@ -1,12 +1,7 @@
 <template>
     <div class="hero">
-            <g-link :to="item.node.path" class="project-link">
-            <g-image
-                :src="item.node.thumbnail"
-                :alt="item.node.title"
-                class="thumbnail"
-            />
-            </g-link>
+        <h1 class="hero-title" v-html="settings.hero_2_title" />
+        <h2 class="hero-subtitle" v-html="settings.hero_2_subtitle" />
     </div>
 </template>
 
@@ -41,6 +36,14 @@ export default {
     padding: 0;
 }
 .hero-subtitle {
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.68;
+    padding: 0;
+    margin: 0;
+    opacity: 0.6;
+}
+.hero-subtitle-2 {
     font-size: 1.15em;
     font-weight: 400;
     line-height: 1.68;

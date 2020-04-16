@@ -1,6 +1,7 @@
 ---
 date: 2019-06-07
 title: Gridsome with Forestry CMS
+category: Film
 author: Nichlas W. Andersen
 excerpt: Get up and running with Forestry CMS, a git-backed headless CMS with a slick editing interface.
 

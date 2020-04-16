@@ -1,11 +1,12 @@
 {
-  "footer": "Copyright &copy; 2019",
+  "footer": "Copyright &copy; 2020",
   "dark_mode": false,
-  "site_name": "Nichlas W. Andersen",
-  "site_description": "Creative technologist",
-  "hero_title": "Simplicity. Aesthetics. Value.",
-  "hero_subtitle": "Hi there, I'm an independent Digital Designer &amp; Art Director focused on digital design for brands that like to have fun.",
-  "hero_subtitle_2": "This is the original subtitle 2",
+  "site_name": "Kate Voet",
+  "site_description": "Film Director",
+  "hero_title": "First hero title",
+  "hero_subtitle": "The hero subtitle",
+  "hero_2_title": "Second hero title.",
+  "hero_2_subtitle": "And this is the second subtitle",
   "About_Heading": "This is the header for the about page.",
   "About_Paragraph": "This is the body text for the about page."  
 }
