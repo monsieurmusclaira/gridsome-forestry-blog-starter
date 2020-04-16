@@ -22,6 +22,12 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: hero_subtitle_2
+  type: text
+  config:
+    required: false
+  label: Hero Subtitle 2
+  description: new subtitle 2
 - name: footer
   label: Footer text
   type: text
